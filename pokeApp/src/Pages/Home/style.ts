@@ -21,13 +21,14 @@ export const styles = StyleSheet.create({
   
   card: {
     width: "90%",
-    height: "45%",
+    height: "70%",
     borderRadius: 8,
     borderColor: "#e6103490",
     borderWidth: 1.5,
     marginTop: 15,
     marginBottom: 20,
-    
+    alignContent:'center',
+    justifyContent:'center',
   },
   
   image: {
@@ -40,7 +41,7 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontWeight: 'bold',
-    paddingTop: 10,
+    // paddingTop: 60,
     color: '#fff'
   }
 });
